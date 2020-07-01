@@ -1,0 +1,22 @@
+{
+  "name": "jeu-discord",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lol218/jeu-discord.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lol218/jeu-discord/issues"
+  },
+  "homepage": "https://github.com/lol218/jeu-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
