@@ -5,9 +5,9 @@ const ryuk = new discord.Client()
 const commande = new discord.Client()
 
 // connection à l'api de discord
-deathnote.login('NzI3ODcyMjEyOTg3NTQzNjIz.XvyKTg.zRBJwO4ULxo2BirpIFMCqMfHPCU')
-ryuk.login('NzI3ODczNDA5NDIxMjc5Mjgz.XvyLAQ.J03w-sdhgYhQPoP0VrBDIbkHhOM')
-commande.login('NzI3ODc0NTA1NjgyMTkwMzY3.XvyM3g.oLIvKeEpPwkmplDdeXpOT7v-0Ls')
+deathnote.login('token')
+ryuk.login('token')
+commande.login('token')
 
 //
 deathnote.on('ready', () => {
@@ -18,4 +18,17 @@ ryuk.on('ready', () => {
 })
 commande.on('ready', () => {
     console.info('commande ready')
+})
+
+deathnote.on('message', message => {
+    if (message.content.startsWith('!note')) {
+        let args = message.content.trim().split(' ');
+        
+    }
+})
+ryuk.on('message', message => {
+
+})
+commande.on('message', message => {
+
 })
