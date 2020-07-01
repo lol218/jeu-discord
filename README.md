@@ -1,1 +1,1 @@
-# jeu-discord
+jeu-discord est un jeu d'enquette immence qui est en cours de developement. merci de patienter.
